@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-
-        <link stylesheet="text/css" rel="./styles" />
-
-    </head>
+<head>
+    <link rel="stylesheet" href="css\bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
 
 
     <body>
+        <header>
+            <div class="container">
+                <h1>
+                    My Todo List
+                </h1>
+            </div>
 
-
-
+        </header>
+        <div class="container-fluid" id="Container">
+            <section class="things_to_do">
+                <h2>
+                    Things To Do
+                </h2>
+                <input type="text" id="add" value="Add" />
+                <button id="btn">+</button>
+            </section>
+            <section class="listContainer">
+                <ul id="list">
+                </ul>
+            </section>
+        </div>
 
             
         

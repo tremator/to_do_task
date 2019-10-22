@@ -1,0 +1,33 @@
+header{
+    background-color:darkturquoise;
+    text-align:center;
+}
+.things_to_do{
+    background-color:orangered;
+    width:50%;
+
+}
+h2{
+    margin:auto;
+    text-align:center;
+}
+input{
+    width:50%;
+    display:inline-block;
+    text-align:center;
+    margin-left:25%;
+}
+li{
+   cursor:pointer;
+   background-color:crimson;
+   color:white;
+}
+.listContainer {
+    width: 50%;
+}
+#Container{
+    margin-left:25%;
+}
+li:hover{
+    background-color:blue;
+}
