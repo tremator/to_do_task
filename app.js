@@ -5,7 +5,8 @@ $("#btn").click(function () {
     li.id = "li";
     console.log(li);
     $("#list").append(li);
-})
+});
 $("#li").click(function () {
-    this.style.textDecoration = "line-through";
-})      
+    alert("hola"); 
+    $("#li").css('background-color', 'white');
+});
