@@ -17,10 +17,10 @@ input{
     text-align:center;
     margin-left:25%;
 }
-li{
-   cursor:pointer;
-   background-color:crimson;
-   color:white;
+li {
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
 }
 .listContainer {
     width: 50%;
@@ -31,3 +31,12 @@ li{
 li:hover{
     background-color:blue;
 }
+#clean{
+    width:2%;
+    font-size:x-small;
+    text-align:left;
+    position:relative;
+    float:right;
+}
+
+
